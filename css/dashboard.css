@@ -202,6 +202,7 @@ body {
   cursor: pointer;
   -webkit-transition-duration: 0.4s; 
   transition-duration: 0.4s;
+  text-decoration: none;
 }
 .btn:hover{
   background-color: white;
@@ -219,7 +220,7 @@ body {
   cursor: pointer;
   -webkit-transition-duration: 0.4s; 
   transition-duration: 0.4s;
-
+    text-decoration: none;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
