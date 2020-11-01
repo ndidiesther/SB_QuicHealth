@@ -226,6 +226,9 @@ body {
     text-decoration: none;
     color:white;
 }
+.btn a:hover {
+    color: #2FA5A9;
+}
 .btnx a {
     text-decoration: none;
     color:#2FA5A9;
