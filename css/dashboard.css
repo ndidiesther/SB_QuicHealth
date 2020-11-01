@@ -220,6 +220,9 @@ body {
   cursor: pointer;
   -webkit-transition-duration: 0.4s; 
   transition-duration: 0.4s;
+    
+}
+.btnx a, .btn a {
     text-decoration: none;
 }
 
@@ -337,6 +340,12 @@ body {
     }
 
 }
+@media only screen and (max-width: 425px) {
+    .btn {
+        width: 70%;
+    } 
+}
+
 @media only screen and (max-width: 375px) {
     .btnx {
         margin-left:0px;
