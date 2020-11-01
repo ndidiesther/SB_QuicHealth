@@ -309,7 +309,6 @@ body {
         text-align: center;
     } 
     .btn, .btnx {
-        padding:7px 11px;
         font-size:15px;
     }
     .Dashboard-parent > div:nth-child(2) > span:nth-child(1){
@@ -323,7 +322,6 @@ body {
       
     }
     .btn, .btnx {
-        padding:7px 9px;
         font-size:14px;
     }
     .btn {
