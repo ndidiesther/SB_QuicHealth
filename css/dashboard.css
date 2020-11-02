@@ -348,7 +348,7 @@ body {
 }
 @media only screen and (max-width: 425px) {
     .btn {
-        width: 70%;
+        width: 60%;
     } 
 }
 
