@@ -1191,6 +1191,20 @@ body {
         padding-top:155px;
         padding-bottom: 130px;
     }
+    .meeting_btn {
+        float:right;
+        border-radius: 26px;
+        background-color: #B50000;
+        color:white;
+        padding: 7px 10px;
+        font-size: 14px;
+        margin-top: 15px;
+        border: 1px solid  #B50000;
+        cursor: pointer;
+        -webkit-transition-duration: 0.4s; 
+        transition-duration: 0.4s;
+    
+     }
 }
 @media only screen and (max-width: 530px)  {
     .meeting_icon > span {
@@ -1200,7 +1214,7 @@ body {
         width:25px;
     }
 }
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 370px) {
     .meeting_icon > span {
         padding-right:20px;
     }
