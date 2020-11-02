@@ -760,12 +760,17 @@ a {
   margin-top:60px;
 }
 .wrapper-left {
-  height:63vh;
+  height:60vh;
 }
+}
+@media only screen and (max-width: 380px) {
+  .wrapper-left {
+    height:68vh;
+  }
 }
 @media only screen and (max-width: 330px) {
 .wrapper-left{
-  height: 73vh;
+  height: 82vh;
 }
 }
 @media only screen and (min-width: 1370px) {
