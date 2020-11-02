@@ -1135,57 +1135,6 @@ a {
 
 /* Select Appointment Page */
 
-
-.menu {
-  margin: 0 60px 0 0;
-}
-.menu a {
-  clear: right;
-  text-decoration: none;
-  color: black;
-  margin: 0 20px;
-  line-height: 50px;
-}
-.menu a:hover {
-  border: 2px solid#070647;
-  border-radius: 50rem;
-  padding: 5px;
-}
-label {
-  margin: 0 40px 0 0;
-  font-size: 26px;
-  line-height: 50x;
-  display: none;
-  width: 26px;
-  float: right;
-}
-#toggle {
-  display: none;
-}
-.logo {
-  display: flex;
-  position: relative;
-  top: 2.4rem;
-  color: grey;
-  font-size: 2rem;
-  width: 10rem;
-  justify-content: space-between;
-  margin-left: 2rem;
-  position: relative;
-  font-family: Helvetica, sans-serif;
-}
-
-.section-1 {
-  /*border: 2px solid black;*/
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 3rem;
-  padding: 15px;
-  margin-bottom: 2rem;
-  display: flex;
-  justify-content: space-between;
-}
-
 .drop-down select {
   background-color: #2fa5a9;
   font-size: 25px;
@@ -1197,13 +1146,14 @@ label {
 }
 
 .select-appointment {
-  /* border: 2px solid black;*/
   width: 90%;
+  position: relative;
+  top: 1rem;
   margin: 0 auto;
+  z-index: -1;
   text-align: center;
   margin-top: 1rem;
-  padding-top: 40px;
-  font-size: 2.4rem;
+  font-size: 3rem;
   color: #070647;
   font-weight: bold;
   margin-bottom: 2rem;
@@ -1211,7 +1161,6 @@ label {
 .schedule {
   display: flex;
   flex-wrap: wrap;
-  /* border: 1px solid black;*/
   width: 80%;
   margin: 0 auto;
   justify-content: space-between;
@@ -1223,13 +1172,12 @@ label {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /*border: 1px solid pink;*/
-
   height: auto;
+  padding-bottom: 25px;
 }
 
 .shedule-submit button {
-  /* border: 1px solid blue;*/
+
   outline: none;
   width: 8rem;
   height: 7vh;
@@ -1261,10 +1209,10 @@ label {
   width:100%;
 }
 
+
 .available {
   display: flex;
   margin: 0 auto;
-  /*border: 2px solid green;*/
   margin-top: 2rem;
   padding: 10px;
   width: 70%;
@@ -1273,16 +1221,15 @@ label {
   width: 100%;
   position: relative;
   top: 35px;
-  right: 0.3rem;
+  right: 0.2rem;
 }
 .horizontal {
   width: 70%;
+  margin: 0 auto;
   border-top: 1px solid #2fa5a9;
-  margin-left: 15%;
 }
 
 .available-1 {
-  /* border: 2px solid green;*/
   background-color: #2fa5a9;
   color: white;
   border-radius: 10px;
@@ -1295,7 +1242,6 @@ label {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /*border: 2px solid black;*/
   width: 70%;
   margin: 0 auto;
   height: 22vh;
@@ -1305,8 +1251,6 @@ label {
 
 .doctor-profile {
   display: flex;
-  /*flex-wrap: wrap;*/
-  /*border: 2px solid red;*/
   width: 30%;
   height: 20vh;
   justify-content: space-between;
@@ -1317,7 +1261,6 @@ label {
 }
 
 .bookings {
-  /* border: 2px solid green;*/
   width: 30%;
   display: flex;
 
@@ -1328,8 +1271,6 @@ label {
 
 .book {
   align-self: flex-end;
-  /*border: 1px solid yellow;*/
-  /* width: 30%;*/
   width: 10rem;
   text-align: center;
   padding: 10px;
@@ -1345,7 +1286,6 @@ label {
   color: white;
 }
 .drop-down-query-selector {
-  /* border: 2px solid pink;*/
   display: flex;
   width: 80%;
   place-items: center;
@@ -1353,7 +1293,6 @@ label {
 }
 
 .doctor-information {
-  /*border: 1px solid brown;*/
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -1363,26 +1302,22 @@ label {
 
 .call-to-action {
   display: flex;
-  /*border: 2px solid black;*/
-
-  position: relative;
-  bottom: 3px;
-  width: 15rem;
+  width: 10rem;
   justify-content: center;
   text-align: center;
-  padding: 15px;
+  padding: 10px;
   margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
   background-color: #2fa5a9;
   color: white;
-  font-size: 25px;
-  border-radius: 50px;
+  font-size: 20px;
+  border-radius: 100rem;
 }
 .call-to-action:hover {
   box-shadow: 2px 2px 2px grey;
 }
-.chevron_right i {
-  margin-top: 4px;
-}
+
 
 .view-profile a {
   text-decoration: none;
@@ -1394,74 +1329,27 @@ label {
 }
 select {
   outline: none;
-  border: 2px solid #2fa5a9;
+  border: 1px solid #2fa5a9;
   border-radius: 5px;
-  padding:6px;
 }
 
 .call-t0-action-link a {
   text-decoration: none;
   color: white;
- 
 }
-@media screen and (max-width: 700px) {
-  label {
-    display: block;
-    cursor: pointer;
-  }
-  .menu {
-    text-align: center;
-    width: 100%;
-    display: none;
-  }
-  .menu a {
-    color: black;
-    display: block;
-    border-bottom: 1px solid #eaeaeb;
-    margin: 0;
-  }
-  #toggle:checked + .menu {
-    display: block;
-  }
-  .logo {
-    display: flex;
-    position: relative;
-    top: 2.6rem;
-    width: 10rem;
-    justify-content: space-between;
-    margin-left: 2rem;
-  }
-
-  .menu a {
-    position: relative;
-    clear: right;
-    text-decoration: none;
-    color: black;
-    margin: 0 auto;
-    line-height: 50px;
-    width: 100%;
-    background-color: #2fa5a9;
-  }
-  .menu a:hover {
-    border: 2px solid white;
-    border-radius: 0;
-    padding: 5px;
-  }
+@media screen and (max-width: 900px) {
   .doctor-bio {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-    /*border: 2px solid black;*/
-    width: 70%;
+    width: auto;
     margin: 0 auto;
-    height: 85vh;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    height: auto;
+    margin-top: 1rem;
   }
   .profile-1 {
     border-radius: 50rem;
-    /*border: 1px solid purple;*/
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -1469,28 +1357,25 @@ select {
   .doctor-profile {
     display: flex;
     flex-direction: column;
-
-    /*border: 2px solid red;*/
     width: 100%;
     margin: 0 auto;
-    height: 50vh;
-
+    height: auto;
     justify-content: space-between;
   }
 
   .doctor-information {
-    /*border: 1px solid brown;*/
     width: 100%;
     text-align: center;
     margin: 0 auto;
     display: flex;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
     flex-direction: column;
-    height: 26vh;
+    height: auto;
     justify-content: space-between;
   }
 
   .drop-down-query-selector {
-    /*border: 2px solid pink;*/
     display: flex;
     width: auto;
     margin: 0 auto;
@@ -1499,18 +1384,21 @@ select {
   }
 
   .bookings {
-    /*border: 2px solid green;*/
     width: 60%;
     display: flex;
     margin: 0 auto;
-    height: 15vh;
+    height: auto;
     flex-direction: column;
     justify-content: center;
   }
-
+  .horizontal {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-top: 1px solid #2fa5a9;
+  }
   .book {
     align-self: center;
-    /*border: 1px solid yellow;*/
     width: 60%;
     text-align: center;
     padding: 10px;
@@ -1519,45 +1407,48 @@ select {
     border-radius: 50rem;
   }
 }
-
-@media screen and (min-width: 701px) and (max-width: 1200px) {
- 
-  .doctor-profile {
-    display: flex;
-
-    /*border: 2px solid red;*/
-    width: 60%;
-    margin: 0 auto;
-    height: 18vh;
-
-    justify-content: space-between;
-  }
-
+@media screen and (min-width: 900px) and (max-width: 1400px) {
   .doctor-bio {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     justify-content: space-between;
-    /*border: 2px solid black;*/
     width: 70%;
     margin: 0 auto;
-    height: 18vh;
+    height: auto;
     margin-top: 2rem;
+    margin-bottom: 2rem;
   }
-  .book {
-    align-self: center;
-    /*border: 1px solid yellow;*/
-    width: 60%;
-    text-align: center;
-    padding: 10px;
-    background-color: #2fa5a9;
-    color: white;
-    border-radius: 50rem;
+
+  .doctor-profile {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: space-between;
   }
-}
-@media only screen and (max-width: 992px) {
-  .shedule-more-info{
-    padding-bottom:20px;
+  .doctor-information {
+    width: auto;
+    text-align: left;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-left: 4%;
+    justify-content: space-between;
+  }
+
+  .profile-1 {
+    border-radius: 100;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .bookings {
+    width: 30%;
+    display: flex;
+    height: 15vh;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 
