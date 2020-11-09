@@ -7,7 +7,7 @@
   float: left;
 }
 body {
-  font-family: "Oxygen", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Nav bar */
@@ -22,13 +22,22 @@ body {
 .nav ul li {
   display: inline;
   padding: 10px;
-  margin-right:40px;
-  text-transform: uppercase;    
+  margin-right:30px;   
 }
 .nav ul li:last-child {
   border: 1px solid #2FA5A9;
   border-radius: 20px;
   padding:6px 13px;
+}
+.nav ul li:nth-last-child(2) {
+  border: 1px solid #2FA5A9;
+  border-radius: 20px;
+  padding:6px 13px;
+  background-color: #2FA5A9;
+ 
+}
+.nav ul li:nth-last-child(2) a {
+  color: white;
 }
 .nav ul li a {
   color: #000000;
@@ -39,7 +48,7 @@ body {
   margin: 0px; 
   padding:0px;
   float: left;
-  padding-left:30%;
+  padding-left:25%;
   padding-top: 2%;
 }
 
@@ -98,7 +107,7 @@ body {
       top:26px;
       display: none;
       width: 200px;
-      height: 250px;
+      height: 290px;
       z-index: 10000;
       padding: 10px 20px !important;
       background-color: #f2f2f2; 
@@ -301,14 +310,17 @@ a {
 }
 .wrapper-left {
   /* border: 2px solid red;*/
-  width: 40%;
-  height: 60vh;
+  width: 35%;
+  height: 50vh;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+  padding-top: 60px;
 }
 .welcome-intro {
   color: #070647;
+  line-height: 50px;
+  font-size: 20px;
 }
 .wrapper-right {
   /*border: 2px solid blue;*/
@@ -329,6 +341,9 @@ a {
   text-align: center;
   color: #070647;
   font-size: 1.5rem;
+}
+.get-started {
+  padding-top: 20px;
 }
 .section-1 {
   /* border: 2px solid black;*/
@@ -352,9 +367,9 @@ a {
 }
 .acess-wrapper {
   /*border: 2px solid pink;*/
-  width: 40%;
+  width: 30%;
   margin-top: 6rem;
-  height: 50vh;
+  height: 42vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -372,12 +387,12 @@ a {
 }
 .section-2-description {
   /*border: 2px solid yellow;*/
-  width: 40%;
+  width: 35%;
   padding-left: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 44vh;
+  height: 42vh;
   margin-top: 5rem;
 }
 .image-3 {
@@ -396,7 +411,7 @@ a {
 .section-4 {
   /* border: 2px solid red;*/
   margin-bottom: 2rem;
-  width: 100%;
+  width: 95%;
   display: flex;
   justify-content: space-between;
   margin-top: 3rem;
@@ -447,7 +462,7 @@ a {
   margin-top: 4rem;
   /*border: 2px solid yellow;*/
   display: flex;
-  width: 40%;
+  width: 35%;
   height: 44vh;
   flex-direction: column;
   justify-content: space-around;
@@ -470,7 +485,7 @@ a {
   /* border: 2px solid chartreuse;*/
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  
 }
 .footer {
   border: 2px solid #413c98;
@@ -506,6 +521,17 @@ a {
 .mobile-resolve h3 {
   font-weight: lighter;
 }
+@media screen and (max-width: 1330px) {
+  .welcome-intro {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .welcome-intro {
+    font-size: 14px;
+  }
+}
+
 
 @media screen and (max-width: 900px) {
   .top-wrapper {
@@ -589,6 +615,7 @@ a {
     height:35vh;
     flex-direction: column;
     justify-content: space-around;
+    padding:10px;
   }
   .section-2 {
     /*border: 2px solid purple;*/
@@ -610,7 +637,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
     height: auto;
-
+    padding-left: 1rem;
     padding-bottom: 3rem;
     margin-top: 5rem;
   }
@@ -658,7 +685,7 @@ a {
     /*border: 2px solid yellow;*/
     display: flex;
     width: 100%;
-    padding-left: 1rem;
+    padding: 15px;
     flex-direction: column;
     justify-content: space-around;
   }
@@ -736,6 +763,7 @@ a {
     color: #070647;
     font-size: 1rem;
     margin-bottom: 2rem;
+    padding:20px;
   }
   .obstre {
     margin-top:70px;
@@ -744,8 +772,23 @@ a {
   .obstre1 {
     margin-top:70px;
   }
+  .medical-appointment {
+    margin-top: 20px;
+    padding-bottom: 15px;
+  }
   
  
+}
+@media only screen and (min-width: 901px) {
+.next-to-footer {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.sub-footer {
+  padding: 20px;
+  width: 25%;
+}
+
 }
 @media screen and (max-width: 600px){
   .wrapper-left {
@@ -754,24 +797,21 @@ a {
   .why-use h1 {
     font-size: 2rem;
   }
+  .top-wrapper {
+    padding-top: 0px;
+  }
 }
 @media only screen and (max-width: 460px)  {
 .infectious{
   margin-top:60px;
 }
-.wrapper-left {
-  height:60vh;
-}
+
 }
 @media only screen and (max-width: 380px) {
-  .wrapper-left {
-    height:68vh;
-  }
+
 }
 @media only screen and (max-width: 330px) {
-.wrapper-left{
-  height: 82vh;
-}
+
 }
 @media only screen and (min-width: 1370px) {
   .wrapper-right-2 img {
@@ -1130,6 +1170,25 @@ a {
   .pricng-plan {
     font-size: 2rem;
     width: 70%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .wrapper-1 {
+    height:45vh;
+  }
+  .wrapper_content {
+    width:70%;
+    height:150vh;
+    padding:0px;
+  }
+  .timing {
+    font-size:1.5rem;
+  }
+  .amount {
+    font-size:2rem;
+  }
+  .schedule1 {
+    padding:0.6rem;
   }
 }
 
