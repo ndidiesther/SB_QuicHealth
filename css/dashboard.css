@@ -10,7 +10,6 @@ body {
 .nav {
     background-color:white;
     padding: 1px 5%;
-    font-weight: bold; 
   }
   .nav > a:first-child {
     float: left;

@@ -13,8 +13,7 @@ body {
 /* Nav bar */
 .nav {
   background-color:white;
-  padding: 1px 5%;
-  font-weight: bold; 
+  padding: 1px 5%; 
 }
 .nav > a:first-child {
   float: left;

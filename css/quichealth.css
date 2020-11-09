@@ -5,13 +5,11 @@
     float: left;
 }
 body {
-    font-family: 'Poppins', sans-serif;  
-    font-weight: bold;  
+    font-family: 'Poppins', sans-serif;   
 }
 .nav {
   background-color:white;
-  padding: 1px 5%;
-  font-weight: bold; 
+  padding: 1px 5%; 
 }
 .nav > a:first-child {
   float: left;
