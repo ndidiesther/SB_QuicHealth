@@ -892,7 +892,7 @@ body {
   .flex-container>div > div {
     color: white;
     width: 400px;
-    height: 290px;
+    height: 310px;
     padding:40px;
     background: #ffffff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -974,7 +974,7 @@ body {
   @media only screen and (max-width: 450px) {
     .flex-container>div > div {
         width: 250px;
-        height:350px;
+        height:380px;
         padding:20px;
         text-align: center;
         padding-left:45px !important;
